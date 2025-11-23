@@ -5,31 +5,24 @@ import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "DeFi Lending Protocol",
-    description: "A decentralized lending platform built on Ethereum with automated interest rates and collateralization.",
-    technologies: ["Solidity", "Hardhat", "ethers.js", "React", "Node.js"],
+    title: "Project #1: Willyfy",
+    description: "Willyfy - Music Streaming App UI/UX Case Study. Willyfy is a conceptual design project for a music streaming application aimed at providing a immersive listening journey. The design prioritizes ease of use, content discovery, and personalization.",
+    technologies: ["Figma", "UI/UX", "User Research", "Prototyping"],
     github: "#",
+    demo: "https://www.figma.com/proto/PJIHRfOeolXhNMUNCAabkO/willyfy-mario?node-id=3-799&p=f&t=6vTQB32t0iwzZpHp-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A799",
+  },
+  {
+    title: "Team Project #3",
+    description: "A web-based car rental information system. Features include user authentication (login & register), car data management (CRUD), and rental transaction processing. Built with native PHP and a MySQL database.",
+    technologies: ["PHP", "MySQL", "HTML", "CSS"],
+    github: "https://github.com/MarioKristanto/Birent_Project",
     demo: "#",
   },
   {
-    title: "NFT Marketplace Backend",
-    description: "Scalable backend infrastructure for an NFT marketplace with real-time bidding and IPFS integration.",
-    technologies: ["Node.js", "Express", "MongoDB", "Redis", "WebSockets"],
-    github: "#",
-    demo: "#",
-  },
-  {
-    title: "Token Staking Platform",
-    description: "Smart contract system for token staking with flexible reward mechanisms and governance features.",
-    technologies: ["Solidity", "Foundry", "TypeScript", "Subgraph", "GraphQL"],
-    github: "#",
-    demo: "#",
-  },
-  {
-    title: "Cross-Chain Bridge",
-    description: "Secure bridge protocol enabling asset transfers between multiple blockchain networks.",
-    technologies: ["Solidity", "Rust", "Cosmos SDK", "Go", "PostgreSQL"],
-    github: "#",
+    title: "Team Project #4",
+    description: "A data science project focused on predicting stroke risk through various classification models. The process includes exploratory data analysis (EDA), data preprocessing (handling missing values, encoding), feature scaling, and model performance comparison. Developed with Python in a Jupyter Notebook environment.",
+    technologies: ["Python", "Jupyter Notebook", "Pandas", "Scikit-learn"],
+    github: "https://github.com/MarioKristanto/stroke_prediction",
     demo: "#",
   },
 ];
@@ -49,9 +42,9 @@ const ProjectsSection = () => {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {projects.map((project, index) => (
-            <Card 
+            <Card
               key={index}
               className="group bg-card border-border hover:border-primary/50 transition-all duration-300 hover:shadow-[0_0_30px_rgba(6,182,212,0.15)]"
             >
@@ -60,16 +53,16 @@ const ProjectsSection = () => {
                   {project.title}
                 </CardTitle>
               </CardHeader>
-              
+
               <CardContent className="space-y-4">
                 <p className="text-muted-foreground leading-relaxed">
                   {project.description}
                 </p>
-                
+
                 {/* Technologies */}
                 <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech, techIndex) => (
-                    <Badge 
+                    <Badge
                       key={techIndex}
                       variant="secondary"
                       className="bg-secondary hover:bg-secondary/80 text-secondary-foreground"
@@ -79,10 +72,10 @@ const ProjectsSection = () => {
                   ))}
                 </div>
               </CardContent>
-              
+
               <CardFooter className="flex gap-3">
-                <Button 
-                  variant="outline" 
+                <Button
+                  variant="outline"
                   size="sm"
                   className="flex-1 group/btn border-border hover:border-primary hover:text-primary"
                   asChild
@@ -92,9 +85,9 @@ const ProjectsSection = () => {
                     GitHub Repo
                   </a>
                 </Button>
-                
-                <Button 
-                  variant="outline" 
+
+                <Button
+                  variant="outline"
                   size="sm"
                   className="flex-1 group/btn border-border hover:border-primary hover:text-primary"
                   asChild

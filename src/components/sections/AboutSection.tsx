@@ -12,28 +12,12 @@ const AboutSection = () => {
         {/* About Content */}
         <div className="space-y-6 text-lg leading-relaxed">
           <p className="text-foreground/90">
-            I'm a passionate blockchain developer with over 5 years of experience building secure, 
-            scalable smart contracts and backend systems. My journey in tech started with traditional 
-            web development, but I found my true calling in the decentralized world of blockchain technology.
+            I am a fifth-semester Information Technology student at Bina Nusantara University with a
+            strong passion for Data Analysis. Through my academic projects and active participation
+            in campus organizations, I have cultivated essential skills in collaboration, problem-solving,
+            and time management. I am currently seeking an internship opportunity where I can apply
+            my analytical skills and contribute to real-world projects in the tech industry.
           </p>
-
-          <p className="text-muted-foreground">
-            I specialize in developing DeFi protocols, NFT platforms, and cross-chain solutions using 
-            Solidity, Rust, and modern backend frameworks. My approach combines deep technical expertise 
-            with a strong focus on security, gas optimization, and user experience.
-          </p>
-
-          <p className="text-muted-foreground">
-            When I'm not coding, you'll find me contributing to open-source projects, writing technical 
-            articles, or exploring the latest developments in Web3. I believe in the power of 
-            decentralized technology to create a more transparent and equitable digital future.
-          </p>
-
-          <div className="pt-8 border-t border-border">
-            <p className="text-center text-muted-foreground italic">
-              "Code is like humor. When you have to explain it, it's bad." - Cory House
-            </p>
-          </div>
         </div>
       </div>
     </section>
