@@ -31,8 +31,7 @@ const HeroSection = () => {
 
             {/* Bio */}
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Building robust blockchain solutions and scalable backend systems.
-              Passionate about decentralized technologies and clean, efficient code.
+              Undergraduate Computer Science Student at Binus University
             </p>
           </div>
 

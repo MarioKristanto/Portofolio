@@ -6,7 +6,7 @@ import { useToast } from "@/hooks/use-toast";
 const ContactSection = () => {
   const [copied, setCopied] = useState(false);
   const { toast } = useToast();
-  const email = "john.doe@example.com";
+  const email = "mariokriss99@gmail.com";
 
   const copyEmail = () => {
     navigator.clipboard.writeText(email);
@@ -62,7 +62,7 @@ const ContactSection = () => {
             className="group border-border hover:border-primary hover:text-primary"
             asChild
           >
-            <a href="https://linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/mario-kristanto" target="_blank" rel="noopener noreferrer">
               <Linkedin className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
               LinkedIn
             </a>
@@ -74,23 +74,13 @@ const ContactSection = () => {
             className="group border-border hover:border-primary hover:text-primary"
             asChild
           >
-            <a href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/MarioKristanto" target="_blank" rel="noopener noreferrer">
               <Github className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
               GitHub
             </a>
           </Button>
 
-          <Button
-            variant="outline"
-            size="lg"
-            className="group border-border hover:border-primary hover:text-primary"
-            asChild
-          >
-            <a href="https://twitter.com/johndoe" target="_blank" rel="noopener noreferrer">
-              <Twitter className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-              Twitter
-            </a>
-          </Button>
+
         </div>
       </div>
     </section>

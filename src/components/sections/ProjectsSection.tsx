@@ -12,14 +12,14 @@ const projects = [
     demo: "https://www.figma.com/proto/PJIHRfOeolXhNMUNCAabkO/willyfy-mario?node-id=3-799&p=f&t=6vTQB32t0iwzZpHp-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A799",
   },
   {
-    title: "Team Project #3",
+    title: "Team Project #2",
     description: "A web-based car rental information system. Features include user authentication (login & register), car data management (CRUD), and rental transaction processing. Built with native PHP and a MySQL database.",
     technologies: ["PHP", "MySQL", "HTML", "CSS"],
     github: "https://github.com/MarioKristanto/Birent_Project",
     demo: "#",
   },
   {
-    title: "Team Project #4",
+    title: "Team Project #3",
     description: "A data science project focused on predicting stroke risk through various classification models. The process includes exploratory data analysis (EDA), data preprocessing (handling missing values, encoding), feature scaling, and model performance comparison. Developed with Python in a Jupyter Notebook environment.",
     technologies: ["Python", "Jupyter Notebook", "Pandas", "Scikit-learn"],
     github: "https://github.com/MarioKristanto/stroke_prediction",
@@ -37,7 +37,7 @@ const ProjectsSection = () => {
             Featured Projects
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            A selection of my recent work in blockchain development and backend systems
+            A selection of my recent work in database
           </p>
         </div>
 
