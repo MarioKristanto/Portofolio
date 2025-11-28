@@ -8,7 +8,7 @@ const skillCategories = [
     skills: ["Solidity", "Rust", "Hardhat", "Foundry", "ethers.js", "web3.js", "Subgraph", "IPFS"],
   },
   {
-    title: "Backend",
+    title: "Database Services",
     icon: Code2,
     skills: ["Node.js", "Express", "TypeScript", "Python", "Go", "GraphQL", "REST APIs", "WebSockets"],
   },
@@ -43,7 +43,7 @@ const SkillsSection = () => {
           {skillCategories.map((category, index) => {
             const Icon = category.icon;
             return (
-              <div 
+              <div
                 key={index}
                 className="space-y-4 p-6 rounded-lg border border-border bg-card hover:border-primary/30 transition-colors"
               >
@@ -53,10 +53,10 @@ const SkillsSection = () => {
                   </div>
                   <h3 className="text-2xl font-semibold">{category.title}</h3>
                 </div>
-                
+
                 <div className="flex flex-wrap gap-2">
                   {category.skills.map((skill, skillIndex) => (
-                    <Badge 
+                    <Badge
                       key={skillIndex}
                       variant="secondary"
                       className="text-sm py-1.5 px-3 bg-secondary hover:bg-primary/20 hover:text-primary transition-colors"
